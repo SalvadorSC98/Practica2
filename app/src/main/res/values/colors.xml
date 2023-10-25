@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="GreenBackgroundTab">#009688</color>
+    <color name="OrangeLineTabSelected">#FFC107</color>
+    <color name="WhiteSelectedTextColor">#FFFFFF</color>
+    <color name="GreenNotSelectedTextColor">#7BE3D6</color>
+    <color name="FragmentBackground">#F4FFFE</color>
 </resources>
