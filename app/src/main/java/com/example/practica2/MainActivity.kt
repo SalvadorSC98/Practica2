@@ -17,8 +17,8 @@ class MainActivity : AppCompatActivity() {
         val tabLayout = binding.studentTabs
         val viewPager = binding.studentInfoViewPager2
 
-        val dataClasses = DataClasses()
-        val emails = dataClasses.combinedData.people.map { it.email }
+        val dataClasses = DataClasses
+        val emails = dataClasses.students.map { it.email }
 
         val adapter = ViewPagerAdapter(this, dataClasses)
         viewPager.adapter = adapter

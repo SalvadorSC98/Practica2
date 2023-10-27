@@ -1,20 +1,17 @@
 package com.example.practica2
 
-class DataClasses {
-    val people = listOf(
-        Person("PruebaNombre1", "PruebaApellido1", "prueba1@email.com"),
-        Person("PruebaNombre2", "PruebaApellido2", "prueba2@email.com")
-    )
+import com.example.practica2.data.Student
+import com.example.practica2.data.Tutor
 
-    val students = listOf(
-        Student("PruebaCentro1", "PruebaCiudad1", R.drawable.imagen1),
-        Student("PruebaCentro2", "PruebaCiudad2", R.drawable.imagen2)
-    )
+object DataClasses {
 
     val tutors = listOf(
         Tutor("PruebaNombreTutor1", "PruebaApellidosTutor1"),
         Tutor("PruebaNombreTutor2", "PruebaApellidosTutor2")
     )
 
-    val combinedData = CombinedData(people, students, tutors)
+    val students = listOf(
+        Student("PruebaNombre1", "PruebaApellido1", "prueba1@email.com","PruebaCentro1", "PruebaCiudad1", R.drawable.imagen1, tutors[0]),
+        Student("PruebaNombre2", "PruebaApellido2", "prueba2@email.com","PruebaCentro2", "PruebaCiudad2", R.drawable.imagen2, tutors[1])
+    )
 }
