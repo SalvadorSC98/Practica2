@@ -33,8 +33,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp36"
         android:text=""
-        android:textStyle="bold"
         android:textSize="@dimen/sp20"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/nameLabel" />
 
@@ -55,8 +55,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp36"
         android:text=""
-        android:textStyle="bold"
         android:textSize="@dimen/sp20"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/surnameLabel" />
 
@@ -77,8 +77,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp36"
         android:text=""
-        android:textStyle="bold"
         android:textSize="@dimen/sp20"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/emailLabel" />
 
@@ -99,8 +99,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp36"
         android:text=""
-        android:textStyle="bold"
         android:textSize="@dimen/sp20"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cityLabel" />
 
@@ -121,8 +121,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp36"
         android:text=""
-        android:textStyle="bold"
         android:textSize="@dimen/sp20"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/centerLabel" />
 
@@ -143,8 +143,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp36"
         android:text=""
-        android:textStyle="bold"
         android:textSize="@dimen/sp20"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tutorLabel" />
 
@@ -154,8 +154,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dp36"
         android:text=""
-        android:textStyle="bold"
         android:textSize="@dimen/sp20"
+        android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tutorNameTextView" />
 
