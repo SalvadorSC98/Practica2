@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.practica2.AttendanceActivity
 import com.example.practica2.DataClasses.students
-import com.example.practica2.DataClasses.tutors
 import com.example.practica2.data.Student
 import com.example.practica2.data.Tutor
 import com.example.practica2.databinding.FragmentInfoBinding
@@ -39,6 +38,7 @@ class FragmentInfo : Fragment() {
 
         binding.calendarImageView.setOnClickListener {
             val intent = Intent(requireContext(), AttendanceActivity::class.java)
+            intent.putExtra("prueba", students[position])
             startActivity(intent)
             requireActivity().finish()
         }
