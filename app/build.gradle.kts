@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.practica2"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -35,6 +35,9 @@ android {
     }
     viewBinding {
         enable = true
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 

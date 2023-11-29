@@ -7,4 +7,6 @@
     <color name="WhiteSelectedTextColor">#FFFFFF</color>
     <color name="GreenNotSelectedTextColor">#7BE3D6</color>
     <color name="FragmentBackground">#F4FFFE</color>
+    <color name="Prueba">#09171D</color>
+    <color name="ToolbarBackground">#193b4c</color>
 </resources>

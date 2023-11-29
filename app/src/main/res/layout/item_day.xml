@@ -1,0 +1,16 @@
+<!-- res/layout/item_day.xml -->
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp8"
+        android:textSize="@dimen/sp18"
+        android:textStyle="bold"
+        android:gravity="center"/>
+</GridLayout>
